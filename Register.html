@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blow-addblog</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="logo.jpg" type="image/png">
+
+</head>
+
+<body class="overflow-x-hidden">
+    
+    
+    <div class="navbar flex bg-slate-100 justify-around items-center w-screen max-h-72 border-2 p-4">
+        <div class="logo">
+            <img src="logo.jpg" alt="" class="max-h-14">
+        </div>
+
+        <div class="links text-2xl font-bold mb-2">
+            <a href="index.html">Home</a>
+            <a href="#" class="ml-4">About</a>
+            <a href="#" class="ml-4">Service</a>
+            <a href="Blogs.html" class="ml-4">Blogs</a>
+            <a href="addblog.html" class="ml-4">Add A Blog</a>
+            <a href="Register.html" class="ml-4">Register</a>
+            <a href="Login.html" class="ml-4">Login</a>
+        </div>
+    </div>
+    <main>
+        <div class="bg-cover bg-center" style="background-image: url('bg1.jpeg');">
+        <div class="flex justify-center items-center h-screen">
+            <form class="bg-opacity-25  border-4 rounded-lg px-20 py-12">
+                <center><h1 class="text-3xl font-bold mb-2">Registration</h1></center>
+                <br>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-lg font-bold mb-2" for="username">
+                        Username
+                    </label>
+                    <input class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-lg font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-lg font-bold mb-2" for="password">
+                        Password
+                    </label>
+                    <input class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Password">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-lg font-bold mb-2" for="confirmPassword">
+                        Confirm Password
+                    </label>
+                    <input class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="confirmPassword" type="password" placeholder="Confirm Password">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline" type="submit">
+                        Register
+                    </button>
+                    <a class="inline-block align-baseline text-lg text-blue-500 hover:text-blue-800" href="Login.html">
+                        Already have an account? Login
+                    </a>
+                </div>
+            </form>
+        </div>
+        </div>
+        
+        
+    </main>
+    
+</body>
+</html>
